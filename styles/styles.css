@@ -1,0 +1,75 @@
+
+
+body{
+    
+    background-image: radial-gradient(circle at left,#3a3f8667, rgba(176, 231, 24, 0.39)); 
+}
+.logo{
+    height: 50px;
+        display: block;
+        margin-left: 10px;
+        margin-right: auto;
+        padding: 5px;
+      }
+.center {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+.proizvod{
+
+    border: 4px double gray;
+    border-radius: 10%;
+    scale: 99%
+}
+.slika{
+    width: 90%;
+    height: auto;
+}
+  
+.naslov{
+    border-top: 5px ridge gold;
+    border-bottom: 5px groove gold;
+    padding: 10px;
+}
+.odvojak{
+    border-top: 2px ridge gold;
+    border-bottom: 2px groove gold;
+}
+
+footer{
+    margin-top:5%;
+    display: flex;
+    border-top: 5px ridge gold; 
+    gap: 5%;
+    flex-wrap:wrap;
+    bottom: 0;
+}
+
+.logo img{
+    width: auto;
+    height: 50px;
+}
+
+.logo img:hover{
+    scale: 120%;
+}
+footer ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    list-style: none;
+    flex: 2 100px;
+    max-width: 400px;
+   
+}
+
+footer p{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+    flex: 3 100px;
+}
