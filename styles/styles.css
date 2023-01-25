@@ -1,13 +1,12 @@
 
 
 body{
-    
+    background-color: rgba(255, 255, 255, 0.548);
     background-image: radial-gradient(circle at left,#3a3f8667, rgba(176, 231, 24, 0.39)); 
 }
 .logo{
-    height: 50px;
-        display: block;
-        margin-left: 10px;
+        height: 50px;
+        
         margin-right: auto;
         padding: 5px;
       }
@@ -35,8 +34,8 @@ body{
     padding: 10px;
 }
 .odvojak{
-    border-top: 2px ridge gold;
-    border-bottom: 2px groove gold;
+    border-top: 1px ridge gold;
+    border-bottom: 1px groove gold;
 }
 
 footer{
@@ -60,8 +59,10 @@ footer ul{
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
     list-style: none;
-    flex: 2 100px;
+    flex: 2 250px;
     max-width: 400px;
    
 }
